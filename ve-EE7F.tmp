@@ -1,0 +1,179 @@
+﻿
+Option Strict Off
+Option Explicit On
+
+Public Class Sarah
+
+    Friend WithEvents Event_HistoryTableAdapter As New WatchdogDataSetTableAdapters.Event_HistoryTableAdapter
+
+    Dim _arduino As Arduino_Net2
+    Dim tSleep As System.Timers.Timer
+    Dim SensorOldValue(7) As Integer
+    Dim iSensorCount As Integer
+
+
+    Private Sub Sarah_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Dim port As String
+        Dim ports As String() = SerialPort.GetPortNames()
+        Dim i As Integer
+
+        Dim badChars As Char() = New Char() {"c"}
+
+        For Each port In ports
+            ' .NET Framework has a bug where COM ports are
+            ' sometimes appended with a 'c' characeter!
+            If port.IndexOfAny(badChars) <> -1 Then
+                cbCOMPort.Items.Add(port.Substring(0, port.Length - 1))
+            Else
+                cbCOMPort.Items.Add(port)
+            End If
+            cbCOMPort.Text = port
+        Next
+        If cbCOMPort.Items.Count = 0 Then
+            cbCOMPort.Text = ""
+        Else
+            cbCOMPort.Text = cbCOMPort.Items(0).ToString
+        End If
+
+        'Create Thread-safe timer
+        tSleep = New System.Timers.Timer(2000)
+        AddHandler tSleep.Elapsed, AddressOf tSleep_Elapsed
+
+
+    End Sub
+
+    Private Sub tSleep_Elapsed()
+        Console.Write("Checking " & iSensorCount.ToString & Chr(13))
+        
+        _arduino.GetDigitalValue(iSensorCount)
+
+        iSensorCount = iSensorCount + 1
+        If iSensorCount = 7 Then
+            iSensorCount = 3
+        End If
+
+
+    End Sub
+
+
+    Private Sub btnConnect_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnConnect.Click
+        lblConnectionStatus.Text = "Connecting"
+
+        If cbCOMPort.Text = "" Then
+            MsgBox("Connect Error")
+            lblConnectionStatus.Text = "Not Connected"
+            Exit Sub
+        End If
+
+        Try
+            _arduino = New Arduino_Net2(cbCOMPort.Text)
+            _arduino.ComPort = cbCOMPort.Text
+            _arduino.BaudRate = 9600
+            _arduino.StartCommunication()
+
+            'Moisture Sensors
+            _arduino.EnableDigitalPort(3, True)
+            _arduino.SetDigitalDirection(3, Arduino_Net2.DigitalDirection.Input)
+
+            _arduino.EnableDigitalPort(4, True)
+            _arduino.SetDigitalDirection(4, Arduino_Net2.DigitalDirection.Input)
+
+            _arduino.EnableDigitalPort(5, True)
+            _arduino.SetDigitalDirection(4, Arduino_Net2.DigitalDirection.Input)
+
+            _arduino.EnableDigitalPort(6, True)
+            _arduino.SetDigitalDirection(6, Arduino_Net2.DigitalDirection.Input)
+
+            AddHandler _arduino.DigitalDataReceived, AddressOf Arduino_DigitalDataReceived
+
+            _arduino.EnableDigitalTrigger(3, True)
+            _arduino.EnableDigitalTrigger(4, True)
+            _arduino.EnableDigitalTrigger(5, True)
+            _arduino.EnableDigitalTrigger(6, True)
+
+            _arduino.GetDigitalValue(3)
+            _arduino.GetDigitalValue(4)
+            _arduino.GetDigitalValue(5)
+            _arduino.GetDigitalValue(6)
+
+            btnConnect.Enabled = False
+            btnDisconnect.Enabled = True
+            btnStart.Enabled = True
+            cbCOMPort.Enabled = False
+
+            For i = 0 To 3
+                SensorOldValue(i) = 0
+            Next
+            iSensorCount = 3
+
+            lblConnectionStatus.Text = "Connected"
+        Catch ex As Exception
+            MsgBox("Connect Error")
+            lblConnectionStatus.Text = "Not Connected"
+            Exit Sub
+        End Try
+
+    End Sub
+
+    Private Sub btnDisconnect_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnDisconnect.Click
+        tSleep.Stop()
+        btnConnect.Enabled = True
+        btnDisconnect.Enabled = False
+        btnStart.Enabled = False
+        btnStop.Enabled = False
+        cbCOMPort.Enabled = True
+        _arduino.StopCommunication()
+
+        lblConnectionStatus.Text = "Not Connected"
+
+    End Sub
+
+    Private Sub Arduino_DigitalDataReceived(ByVal DPortNr As Integer, ByVal Value As Integer)
+        Try
+            If DPortNr = 3 And SensorOldValue(3) <> Value Then
+                Irrigation_ControlTableAdapter.UpdateMoistureSensor1(Value)
+                SensorOldValue(3) = Value
+                Console.Write("Port " & DPortNr.ToString & " value = " & Value.ToString & Chr(13))
+            End If
+
+            If DPortNr = 4 And SensorOldValue(4) <> Value Then
+                Irrigation_ControlTableAdapter.UpdateMoistureSensor2(Value)
+                SensorOldValue(4) = Value
+                Console.Write("Port " & DPortNr.ToString & " value = " & Value.ToString & Chr(13))
+            End If
+
+            If DPortNr = 5 And SensorOldValue(5) <> Value Then
+                Irrigation_ControlTableAdapter.UpdateMoistureSensor3(Value)
+                SensorOldValue(5) = Value
+                Console.Write("Port " & DPortNr.ToString & " value = " & Value.ToString & Chr(13))
+            End If
+
+            If DPortNr = 6 And SensorOldValue(6) <> Value Then
+                Irrigation_ControlTableAdapter.UpdateMoistureSensor4(Value)
+                SensorOldValue(6) = Value
+                Console.Write("Port " & DPortNr.ToString & " value = " & Value.ToString & Chr(13))
+            End If
+
+        Catch ex As Exception
+        End Try
+    End Sub
+
+    Private Sub btnStart_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnStart.Click
+        lblMonitor.Text = "Monitoring"
+        btnStop.Enabled = True
+        btnStart.Enabled = False
+
+        tSleep.Start()
+
+    End Sub
+
+    Private Sub btnStop_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnStop.Click
+        tSleep.Stop()
+
+        lblMonitor.Text = "Not Monitoring"
+        btnStart.Enabled = True
+        btnStop.Enabled = False
+    End Sub
+
+
+End Class

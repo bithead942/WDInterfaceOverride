@@ -1,0 +1,1022 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Sarah
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Sarah))
+        Me.Event_Current_StateDataGridView = New System.Windows.Forms.DataGridView
+        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn10 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn11 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn12 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn13 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn14 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn15 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn16 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn17 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn18 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn19 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn20 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn21 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn22 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn23 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn24 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn25 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn26 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn27 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn28 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn29 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn30 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn31 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn32 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn33 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn34 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn35 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn36 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn37 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn38 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn46 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn47 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.Last_Update = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.Event_Current_StateBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.WatchdogDataSet = New WindowsApplication1.WatchdogDataSet
+        Me.Temp_Current_StateDataGridView = New System.Windows.Forms.DataGridView
+        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn48 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn49 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn50 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn51 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn52 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn53 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn54 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.Temp_Current_StateBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.X10_ControlDataGridView = New System.Windows.Forms.DataGridView
+        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn55 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn56 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn57 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn58 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn59 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn60 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn61 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn62 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn63 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn64 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn65 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn66 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn67 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn68 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn69 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn70 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.DataGridViewTextBoxColumn71 = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.X10_ControlBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.gbVoiceRecognition = New System.Windows.Forms.GroupBox
+        Me.lblLastInteraction = New System.Windows.Forms.Label
+        Me.Label2 = New System.Windows.Forms.Label
+        Me.lblStatus = New System.Windows.Forms.Label
+        Me.Label5 = New System.Windows.Forms.Label
+        Me.lblCommand = New System.Windows.Forms.Label
+        Me.Label4 = New System.Windows.Forms.Label
+        Me.lblDuration = New System.Windows.Forms.Label
+        Me.Label3 = New System.Windows.Forms.Label
+        Me.lblConfidence = New System.Windows.Forms.Label
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.tCheckPresence = New System.Windows.Forms.Timer(Me.components)
+        Me.Event_Current_StateTableAdapter = New WindowsApplication1.WatchdogDataSetTableAdapters.Event_Current_StateTableAdapter
+        Me.TableAdapterManager = New WindowsApplication1.WatchdogDataSetTableAdapters.TableAdapterManager
+        Me.Temp_Current_StateTableAdapter = New WindowsApplication1.WatchdogDataSetTableAdapters.Temp_Current_StateTableAdapter
+        Me.X10_ControlTableAdapter = New WindowsApplication1.WatchdogDataSetTableAdapters.X10_ControlTableAdapter
+        Me.gbMonitor = New System.Windows.Forms.GroupBox
+        Me.lblCountdown = New System.Windows.Forms.Label
+        Me.Label6 = New System.Windows.Forms.Label
+        Me.lblMonitor = New System.Windows.Forms.Label
+        Me.Label7 = New System.Windows.Forms.Label
+        Me.btnStop = New System.Windows.Forms.Button
+        Me.btnStart = New System.Windows.Forms.Button
+        Me.cbCOMPort = New System.Windows.Forms.ComboBox
+        Me.Label10 = New System.Windows.Forms.Label
+        Me.btnDisconnect = New System.Windows.Forms.Button
+        Me.btnConnect = New System.Windows.Forms.Button
+        Me.lblConnectionStatus = New System.Windows.Forms.Label
+        Me.Label8 = New System.Windows.Forms.Label
+        Me.btnControls = New System.Windows.Forms.Button
+        CType(Me.Event_Current_StateDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Event_Current_StateBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.WatchdogDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Temp_Current_StateDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Temp_Current_StateBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.X10_ControlDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.X10_ControlBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.gbVoiceRecognition.SuspendLayout()
+        Me.gbMonitor.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'Event_Current_StateDataGridView
+        '
+        Me.Event_Current_StateDataGridView.AutoGenerateColumns = False
+        Me.Event_Current_StateDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.Event_Current_StateDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7, Me.DataGridViewTextBoxColumn8, Me.DataGridViewTextBoxColumn9, Me.DataGridViewTextBoxColumn10, Me.DataGridViewTextBoxColumn11, Me.DataGridViewTextBoxColumn12, Me.DataGridViewTextBoxColumn13, Me.DataGridViewTextBoxColumn14, Me.DataGridViewTextBoxColumn15, Me.DataGridViewTextBoxColumn16, Me.DataGridViewTextBoxColumn17, Me.DataGridViewTextBoxColumn18, Me.DataGridViewTextBoxColumn19, Me.DataGridViewTextBoxColumn20, Me.DataGridViewTextBoxColumn21, Me.DataGridViewTextBoxColumn22, Me.DataGridViewTextBoxColumn23, Me.DataGridViewTextBoxColumn24, Me.DataGridViewTextBoxColumn25, Me.DataGridViewTextBoxColumn26, Me.DataGridViewTextBoxColumn27, Me.DataGridViewTextBoxColumn28, Me.DataGridViewTextBoxColumn29, Me.DataGridViewTextBoxColumn30, Me.DataGridViewTextBoxColumn31, Me.DataGridViewTextBoxColumn32, Me.DataGridViewTextBoxColumn33, Me.DataGridViewTextBoxColumn34, Me.DataGridViewTextBoxColumn35, Me.DataGridViewTextBoxColumn36, Me.DataGridViewTextBoxColumn37, Me.DataGridViewTextBoxColumn38, Me.DataGridViewTextBoxColumn46, Me.DataGridViewTextBoxColumn47, Me.Last_Update})
+        Me.Event_Current_StateDataGridView.DataSource = Me.Event_Current_StateBindingSource
+        Me.Event_Current_StateDataGridView.Location = New System.Drawing.Point(44, 347)
+        Me.Event_Current_StateDataGridView.Name = "Event_Current_StateDataGridView"
+        Me.Event_Current_StateDataGridView.Size = New System.Drawing.Size(14, 22)
+        Me.Event_Current_StateDataGridView.TabIndex = 2
+        Me.Event_Current_StateDataGridView.Visible = False
+        '
+        'DataGridViewTextBoxColumn3
+        '
+        Me.DataGridViewTextBoxColumn3.DataPropertyName = "Garage_Door"
+        Me.DataGridViewTextBoxColumn3.HeaderText = "Garage_Door"
+        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
+        '
+        'DataGridViewTextBoxColumn4
+        '
+        Me.DataGridViewTextBoxColumn4.DataPropertyName = "Garage_Window_South"
+        Me.DataGridViewTextBoxColumn4.HeaderText = "Garage_Window_South"
+        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
+        '
+        'DataGridViewTextBoxColumn5
+        '
+        Me.DataGridViewTextBoxColumn5.DataPropertyName = "Garage_Window_North"
+        Me.DataGridViewTextBoxColumn5.HeaderText = "Garage_Window_North"
+        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
+        '
+        'DataGridViewTextBoxColumn6
+        '
+        Me.DataGridViewTextBoxColumn6.DataPropertyName = "Garage_Outside_Door"
+        Me.DataGridViewTextBoxColumn6.HeaderText = "Garage_Outside_Door"
+        Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
+        '
+        'DataGridViewTextBoxColumn7
+        '
+        Me.DataGridViewTextBoxColumn7.DataPropertyName = "Garage_Outside_Door_Lock"
+        Me.DataGridViewTextBoxColumn7.HeaderText = "Garage_Outside_Door_Lock"
+        Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
+        '
+        'DataGridViewTextBoxColumn8
+        '
+        Me.DataGridViewTextBoxColumn8.DataPropertyName = "Garage_Inside_Door"
+        Me.DataGridViewTextBoxColumn8.HeaderText = "Garage_Inside_Door"
+        Me.DataGridViewTextBoxColumn8.Name = "DataGridViewTextBoxColumn8"
+        '
+        'DataGridViewTextBoxColumn9
+        '
+        Me.DataGridViewTextBoxColumn9.DataPropertyName = "Garage_Inside_Door_Lock"
+        Me.DataGridViewTextBoxColumn9.HeaderText = "Garage_Inside_Door_Lock"
+        Me.DataGridViewTextBoxColumn9.Name = "DataGridViewTextBoxColumn9"
+        '
+        'DataGridViewTextBoxColumn10
+        '
+        Me.DataGridViewTextBoxColumn10.DataPropertyName = "Kitchen_Window"
+        Me.DataGridViewTextBoxColumn10.HeaderText = "Kitchen_Window"
+        Me.DataGridViewTextBoxColumn10.Name = "DataGridViewTextBoxColumn10"
+        '
+        'DataGridViewTextBoxColumn11
+        '
+        Me.DataGridViewTextBoxColumn11.DataPropertyName = "Back_Door"
+        Me.DataGridViewTextBoxColumn11.HeaderText = "Back_Door"
+        Me.DataGridViewTextBoxColumn11.Name = "DataGridViewTextBoxColumn11"
+        '
+        'DataGridViewTextBoxColumn12
+        '
+        Me.DataGridViewTextBoxColumn12.DataPropertyName = "Back_Door_Lock"
+        Me.DataGridViewTextBoxColumn12.HeaderText = "Back_Door_Lock"
+        Me.DataGridViewTextBoxColumn12.Name = "DataGridViewTextBoxColumn12"
+        '
+        'DataGridViewTextBoxColumn13
+        '
+        Me.DataGridViewTextBoxColumn13.DataPropertyName = "Great_Room_Window_South"
+        Me.DataGridViewTextBoxColumn13.HeaderText = "Great_Room_Window_South"
+        Me.DataGridViewTextBoxColumn13.Name = "DataGridViewTextBoxColumn13"
+        '
+        'DataGridViewTextBoxColumn14
+        '
+        Me.DataGridViewTextBoxColumn14.DataPropertyName = "Great_Room_Window_North"
+        Me.DataGridViewTextBoxColumn14.HeaderText = "Great_Room_Window_North"
+        Me.DataGridViewTextBoxColumn14.Name = "DataGridViewTextBoxColumn14"
+        '
+        'DataGridViewTextBoxColumn15
+        '
+        Me.DataGridViewTextBoxColumn15.DataPropertyName = "Play_Room_Window_South"
+        Me.DataGridViewTextBoxColumn15.HeaderText = "Play_Room_Window_South"
+        Me.DataGridViewTextBoxColumn15.Name = "DataGridViewTextBoxColumn15"
+        '
+        'DataGridViewTextBoxColumn16
+        '
+        Me.DataGridViewTextBoxColumn16.DataPropertyName = "Play_Room_window_North"
+        Me.DataGridViewTextBoxColumn16.HeaderText = "Play_Room_window_North"
+        Me.DataGridViewTextBoxColumn16.Name = "DataGridViewTextBoxColumn16"
+        '
+        'DataGridViewTextBoxColumn17
+        '
+        Me.DataGridViewTextBoxColumn17.DataPropertyName = "Famiy_Room_Window_South"
+        Me.DataGridViewTextBoxColumn17.HeaderText = "Famiy_Room_Window_South"
+        Me.DataGridViewTextBoxColumn17.Name = "DataGridViewTextBoxColumn17"
+        '
+        'DataGridViewTextBoxColumn18
+        '
+        Me.DataGridViewTextBoxColumn18.DataPropertyName = "Family_Room_Window_Front_South"
+        Me.DataGridViewTextBoxColumn18.HeaderText = "Family_Room_Window_Front_South"
+        Me.DataGridViewTextBoxColumn18.Name = "DataGridViewTextBoxColumn18"
+        '
+        'DataGridViewTextBoxColumn19
+        '
+        Me.DataGridViewTextBoxColumn19.DataPropertyName = "Family_Room_Window_Front_Middle"
+        Me.DataGridViewTextBoxColumn19.HeaderText = "Family_Room_Window_Front_Middle"
+        Me.DataGridViewTextBoxColumn19.Name = "DataGridViewTextBoxColumn19"
+        '
+        'DataGridViewTextBoxColumn20
+        '
+        Me.DataGridViewTextBoxColumn20.DataPropertyName = "Family_Room_Window_Front_North"
+        Me.DataGridViewTextBoxColumn20.HeaderText = "Family_Room_Window_Front_North"
+        Me.DataGridViewTextBoxColumn20.Name = "DataGridViewTextBoxColumn20"
+        '
+        'DataGridViewTextBoxColumn21
+        '
+        Me.DataGridViewTextBoxColumn21.DataPropertyName = "Front_Door"
+        Me.DataGridViewTextBoxColumn21.HeaderText = "Front_Door"
+        Me.DataGridViewTextBoxColumn21.Name = "DataGridViewTextBoxColumn21"
+        '
+        'DataGridViewTextBoxColumn22
+        '
+        Me.DataGridViewTextBoxColumn22.DataPropertyName = "Front_Door_Lock"
+        Me.DataGridViewTextBoxColumn22.HeaderText = "Front_Door_Lock"
+        Me.DataGridViewTextBoxColumn22.Name = "DataGridViewTextBoxColumn22"
+        '
+        'DataGridViewTextBoxColumn23
+        '
+        Me.DataGridViewTextBoxColumn23.DataPropertyName = "Dining_Room_Window_South"
+        Me.DataGridViewTextBoxColumn23.HeaderText = "Dining_Room_Window_South"
+        Me.DataGridViewTextBoxColumn23.Name = "DataGridViewTextBoxColumn23"
+        '
+        'DataGridViewTextBoxColumn24
+        '
+        Me.DataGridViewTextBoxColumn24.DataPropertyName = "Dining_Room_Window_North"
+        Me.DataGridViewTextBoxColumn24.HeaderText = "Dining_Room_Window_North"
+        Me.DataGridViewTextBoxColumn24.Name = "DataGridViewTextBoxColumn24"
+        '
+        'DataGridViewTextBoxColumn25
+        '
+        Me.DataGridViewTextBoxColumn25.DataPropertyName = "Master_Bath_Window"
+        Me.DataGridViewTextBoxColumn25.HeaderText = "Master_Bath_Window"
+        Me.DataGridViewTextBoxColumn25.Name = "DataGridViewTextBoxColumn25"
+        '
+        'DataGridViewTextBoxColumn26
+        '
+        Me.DataGridViewTextBoxColumn26.DataPropertyName = "Master_Bedroom_Window_South"
+        Me.DataGridViewTextBoxColumn26.HeaderText = "Master_Bedroom_Window_South"
+        Me.DataGridViewTextBoxColumn26.Name = "DataGridViewTextBoxColumn26"
+        '
+        'DataGridViewTextBoxColumn27
+        '
+        Me.DataGridViewTextBoxColumn27.DataPropertyName = "Master_Bedroom_Window_Back_South"
+        Me.DataGridViewTextBoxColumn27.HeaderText = "Master_Bedroom_Window_Back_South"
+        Me.DataGridViewTextBoxColumn27.Name = "DataGridViewTextBoxColumn27"
+        '
+        'DataGridViewTextBoxColumn28
+        '
+        Me.DataGridViewTextBoxColumn28.DataPropertyName = "Master_Bedroom_Window_Back_North"
+        Me.DataGridViewTextBoxColumn28.HeaderText = "Master_Bedroom_Window_Back_North"
+        Me.DataGridViewTextBoxColumn28.Name = "DataGridViewTextBoxColumn28"
+        '
+        'DataGridViewTextBoxColumn29
+        '
+        Me.DataGridViewTextBoxColumn29.DataPropertyName = "Sydney_Bedroom_Window"
+        Me.DataGridViewTextBoxColumn29.HeaderText = "Sydney_Bedroom_Window"
+        Me.DataGridViewTextBoxColumn29.Name = "DataGridViewTextBoxColumn29"
+        '
+        'DataGridViewTextBoxColumn30
+        '
+        Me.DataGridViewTextBoxColumn30.DataPropertyName = "Ethan_Bedroom_Window"
+        Me.DataGridViewTextBoxColumn30.HeaderText = "Ethan_Bedroom_Window"
+        Me.DataGridViewTextBoxColumn30.Name = "DataGridViewTextBoxColumn30"
+        '
+        'DataGridViewTextBoxColumn31
+        '
+        Me.DataGridViewTextBoxColumn31.DataPropertyName = "Spare_Bedroom_Window_North"
+        Me.DataGridViewTextBoxColumn31.HeaderText = "Spare_Bedroom_Window_North"
+        Me.DataGridViewTextBoxColumn31.Name = "DataGridViewTextBoxColumn31"
+        '
+        'DataGridViewTextBoxColumn32
+        '
+        Me.DataGridViewTextBoxColumn32.DataPropertyName = "Spare_Bedroom_Window_South"
+        Me.DataGridViewTextBoxColumn32.HeaderText = "Spare_Bedroom_Window_South"
+        Me.DataGridViewTextBoxColumn32.Name = "DataGridViewTextBoxColumn32"
+        '
+        'DataGridViewTextBoxColumn33
+        '
+        Me.DataGridViewTextBoxColumn33.DataPropertyName = "Mailbox"
+        Me.DataGridViewTextBoxColumn33.HeaderText = "Mailbox"
+        Me.DataGridViewTextBoxColumn33.Name = "DataGridViewTextBoxColumn33"
+        '
+        'DataGridViewTextBoxColumn34
+        '
+        Me.DataGridViewTextBoxColumn34.DataPropertyName = "Basement_Door"
+        Me.DataGridViewTextBoxColumn34.HeaderText = "Basement_Door"
+        Me.DataGridViewTextBoxColumn34.Name = "DataGridViewTextBoxColumn34"
+        '
+        'DataGridViewTextBoxColumn35
+        '
+        Me.DataGridViewTextBoxColumn35.DataPropertyName = "Basement_Door_Lock"
+        Me.DataGridViewTextBoxColumn35.HeaderText = "Basement_Door_Lock"
+        Me.DataGridViewTextBoxColumn35.Name = "DataGridViewTextBoxColumn35"
+        '
+        'DataGridViewTextBoxColumn36
+        '
+        Me.DataGridViewTextBoxColumn36.DataPropertyName = "Basement_Window_South"
+        Me.DataGridViewTextBoxColumn36.HeaderText = "Basement_Window_South"
+        Me.DataGridViewTextBoxColumn36.Name = "DataGridViewTextBoxColumn36"
+        '
+        'DataGridViewTextBoxColumn37
+        '
+        Me.DataGridViewTextBoxColumn37.DataPropertyName = "Basement_Window_North"
+        Me.DataGridViewTextBoxColumn37.HeaderText = "Basement_Window_North"
+        Me.DataGridViewTextBoxColumn37.Name = "DataGridViewTextBoxColumn37"
+        '
+        'DataGridViewTextBoxColumn38
+        '
+        Me.DataGridViewTextBoxColumn38.DataPropertyName = "Basement_Storage_Door"
+        Me.DataGridViewTextBoxColumn38.HeaderText = "Basement_Storage_Door"
+        Me.DataGridViewTextBoxColumn38.Name = "DataGridViewTextBoxColumn38"
+        '
+        'DataGridViewTextBoxColumn46
+        '
+        Me.DataGridViewTextBoxColumn46.DataPropertyName = "Car_West"
+        Me.DataGridViewTextBoxColumn46.HeaderText = "Car_West"
+        Me.DataGridViewTextBoxColumn46.Name = "DataGridViewTextBoxColumn46"
+        '
+        'DataGridViewTextBoxColumn47
+        '
+        Me.DataGridViewTextBoxColumn47.DataPropertyName = "Car_East"
+        Me.DataGridViewTextBoxColumn47.HeaderText = "Car_East"
+        Me.DataGridViewTextBoxColumn47.Name = "DataGridViewTextBoxColumn47"
+        '
+        'Last_Update
+        '
+        Me.Last_Update.DataPropertyName = "Last_Update"
+        Me.Last_Update.HeaderText = "Last_Update"
+        Me.Last_Update.Name = "Last_Update"
+        '
+        'Event_Current_StateBindingSource
+        '
+        Me.Event_Current_StateBindingSource.DataMember = "Event_Current_State"
+        Me.Event_Current_StateBindingSource.DataSource = Me.WatchdogDataSet
+        '
+        'WatchdogDataSet
+        '
+        Me.WatchdogDataSet.DataSetName = "WatchdogDataSet"
+        Me.WatchdogDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'Temp_Current_StateDataGridView
+        '
+        Me.Temp_Current_StateDataGridView.AutoGenerateColumns = False
+        Me.Temp_Current_StateDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.Temp_Current_StateDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn48, Me.DataGridViewTextBoxColumn49, Me.DataGridViewTextBoxColumn50, Me.DataGridViewTextBoxColumn51, Me.DataGridViewTextBoxColumn52, Me.DataGridViewTextBoxColumn53, Me.DataGridViewTextBoxColumn54})
+        Me.Temp_Current_StateDataGridView.DataSource = Me.Temp_Current_StateBindingSource
+        Me.Temp_Current_StateDataGridView.Location = New System.Drawing.Point(22, 346)
+        Me.Temp_Current_StateDataGridView.Name = "Temp_Current_StateDataGridView"
+        Me.Temp_Current_StateDataGridView.Size = New System.Drawing.Size(14, 23)
+        Me.Temp_Current_StateDataGridView.TabIndex = 4
+        Me.Temp_Current_StateDataGridView.Visible = False
+        '
+        'DataGridViewTextBoxColumn2
+        '
+        Me.DataGridViewTextBoxColumn2.DataPropertyName = "Master_Bedroom"
+        Me.DataGridViewTextBoxColumn2.HeaderText = "Master_Bedroom"
+        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
+        '
+        'DataGridViewTextBoxColumn48
+        '
+        Me.DataGridViewTextBoxColumn48.DataPropertyName = "Ethan_Bedroom"
+        Me.DataGridViewTextBoxColumn48.HeaderText = "Ethan_Bedroom"
+        Me.DataGridViewTextBoxColumn48.Name = "DataGridViewTextBoxColumn48"
+        '
+        'DataGridViewTextBoxColumn49
+        '
+        Me.DataGridViewTextBoxColumn49.DataPropertyName = "Sydney_Bedroom"
+        Me.DataGridViewTextBoxColumn49.HeaderText = "Sydney_Bedroom"
+        Me.DataGridViewTextBoxColumn49.Name = "DataGridViewTextBoxColumn49"
+        '
+        'DataGridViewTextBoxColumn50
+        '
+        Me.DataGridViewTextBoxColumn50.DataPropertyName = "Play_Room"
+        Me.DataGridViewTextBoxColumn50.HeaderText = "Play_Room"
+        Me.DataGridViewTextBoxColumn50.Name = "DataGridViewTextBoxColumn50"
+        '
+        'DataGridViewTextBoxColumn51
+        '
+        Me.DataGridViewTextBoxColumn51.DataPropertyName = "Kitchen"
+        Me.DataGridViewTextBoxColumn51.HeaderText = "Kitchen"
+        Me.DataGridViewTextBoxColumn51.Name = "DataGridViewTextBoxColumn51"
+        '
+        'DataGridViewTextBoxColumn52
+        '
+        Me.DataGridViewTextBoxColumn52.DataPropertyName = "Living_Room"
+        Me.DataGridViewTextBoxColumn52.HeaderText = "Living_Room"
+        Me.DataGridViewTextBoxColumn52.Name = "DataGridViewTextBoxColumn52"
+        '
+        'DataGridViewTextBoxColumn53
+        '
+        Me.DataGridViewTextBoxColumn53.DataPropertyName = "Garage"
+        Me.DataGridViewTextBoxColumn53.HeaderText = "Garage"
+        Me.DataGridViewTextBoxColumn53.Name = "DataGridViewTextBoxColumn53"
+        '
+        'DataGridViewTextBoxColumn54
+        '
+        Me.DataGridViewTextBoxColumn54.DataPropertyName = "Basement_Office"
+        Me.DataGridViewTextBoxColumn54.HeaderText = "Basement_Office"
+        Me.DataGridViewTextBoxColumn54.Name = "DataGridViewTextBoxColumn54"
+        '
+        'Temp_Current_StateBindingSource
+        '
+        Me.Temp_Current_StateBindingSource.DataMember = "Temp_Current_State"
+        Me.Temp_Current_StateBindingSource.DataSource = Me.WatchdogDataSet
+        '
+        'X10_ControlDataGridView
+        '
+        Me.X10_ControlDataGridView.AutoGenerateColumns = False
+        Me.X10_ControlDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.X10_ControlDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn55, Me.DataGridViewTextBoxColumn56, Me.DataGridViewTextBoxColumn57, Me.DataGridViewTextBoxColumn58, Me.DataGridViewTextBoxColumn59, Me.DataGridViewTextBoxColumn60, Me.DataGridViewTextBoxColumn61, Me.DataGridViewTextBoxColumn62, Me.DataGridViewTextBoxColumn63, Me.DataGridViewTextBoxColumn64, Me.DataGridViewTextBoxColumn65, Me.DataGridViewTextBoxColumn66, Me.DataGridViewTextBoxColumn67, Me.DataGridViewTextBoxColumn68, Me.DataGridViewTextBoxColumn69, Me.DataGridViewTextBoxColumn70, Me.DataGridViewTextBoxColumn71})
+        Me.X10_ControlDataGridView.DataSource = Me.X10_ControlBindingSource
+        Me.X10_ControlDataGridView.Location = New System.Drawing.Point(70, 347)
+        Me.X10_ControlDataGridView.Name = "X10_ControlDataGridView"
+        Me.X10_ControlDataGridView.Size = New System.Drawing.Size(14, 22)
+        Me.X10_ControlDataGridView.TabIndex = 14
+        Me.X10_ControlDataGridView.Visible = False
+        '
+        'DataGridViewTextBoxColumn1
+        '
+        Me.DataGridViewTextBoxColumn1.DataPropertyName = "Light1_on"
+        Me.DataGridViewTextBoxColumn1.HeaderText = "Light1_on"
+        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
+        '
+        'DataGridViewTextBoxColumn55
+        '
+        Me.DataGridViewTextBoxColumn55.DataPropertyName = "Light1_off"
+        Me.DataGridViewTextBoxColumn55.HeaderText = "Light1_off"
+        Me.DataGridViewTextBoxColumn55.Name = "DataGridViewTextBoxColumn55"
+        '
+        'DataGridViewTextBoxColumn56
+        '
+        Me.DataGridViewTextBoxColumn56.DataPropertyName = "Light2_on"
+        Me.DataGridViewTextBoxColumn56.HeaderText = "Light2_on"
+        Me.DataGridViewTextBoxColumn56.Name = "DataGridViewTextBoxColumn56"
+        '
+        'DataGridViewTextBoxColumn57
+        '
+        Me.DataGridViewTextBoxColumn57.DataPropertyName = "Light2_off"
+        Me.DataGridViewTextBoxColumn57.HeaderText = "Light2_off"
+        Me.DataGridViewTextBoxColumn57.Name = "DataGridViewTextBoxColumn57"
+        '
+        'DataGridViewTextBoxColumn58
+        '
+        Me.DataGridViewTextBoxColumn58.DataPropertyName = "Light3_on"
+        Me.DataGridViewTextBoxColumn58.HeaderText = "Light3_on"
+        Me.DataGridViewTextBoxColumn58.Name = "DataGridViewTextBoxColumn58"
+        '
+        'DataGridViewTextBoxColumn59
+        '
+        Me.DataGridViewTextBoxColumn59.DataPropertyName = "Light3_off"
+        Me.DataGridViewTextBoxColumn59.HeaderText = "Light3_off"
+        Me.DataGridViewTextBoxColumn59.Name = "DataGridViewTextBoxColumn59"
+        '
+        'DataGridViewTextBoxColumn60
+        '
+        Me.DataGridViewTextBoxColumn60.DataPropertyName = "Temp_Up_1"
+        Me.DataGridViewTextBoxColumn60.HeaderText = "Temp_Up_1"
+        Me.DataGridViewTextBoxColumn60.Name = "DataGridViewTextBoxColumn60"
+        '
+        'DataGridViewTextBoxColumn61
+        '
+        Me.DataGridViewTextBoxColumn61.DataPropertyName = "Temp_Down_1"
+        Me.DataGridViewTextBoxColumn61.HeaderText = "Temp_Down_1"
+        Me.DataGridViewTextBoxColumn61.Name = "DataGridViewTextBoxColumn61"
+        '
+        'DataGridViewTextBoxColumn62
+        '
+        Me.DataGridViewTextBoxColumn62.DataPropertyName = "Temp_Up_3"
+        Me.DataGridViewTextBoxColumn62.HeaderText = "Temp_Up_3"
+        Me.DataGridViewTextBoxColumn62.Name = "DataGridViewTextBoxColumn62"
+        '
+        'DataGridViewTextBoxColumn63
+        '
+        Me.DataGridViewTextBoxColumn63.DataPropertyName = "Temp_Down_3"
+        Me.DataGridViewTextBoxColumn63.HeaderText = "Temp_Down_3"
+        Me.DataGridViewTextBoxColumn63.Name = "DataGridViewTextBoxColumn63"
+        '
+        'DataGridViewTextBoxColumn64
+        '
+        Me.DataGridViewTextBoxColumn64.DataPropertyName = "Zone1_on"
+        Me.DataGridViewTextBoxColumn64.HeaderText = "Zone1_on"
+        Me.DataGridViewTextBoxColumn64.Name = "DataGridViewTextBoxColumn64"
+        '
+        'DataGridViewTextBoxColumn65
+        '
+        Me.DataGridViewTextBoxColumn65.DataPropertyName = "Zone1_off"
+        Me.DataGridViewTextBoxColumn65.HeaderText = "Zone1_off"
+        Me.DataGridViewTextBoxColumn65.Name = "DataGridViewTextBoxColumn65"
+        '
+        'DataGridViewTextBoxColumn66
+        '
+        Me.DataGridViewTextBoxColumn66.DataPropertyName = "Zone2_on"
+        Me.DataGridViewTextBoxColumn66.HeaderText = "Zone2_on"
+        Me.DataGridViewTextBoxColumn66.Name = "DataGridViewTextBoxColumn66"
+        '
+        'DataGridViewTextBoxColumn67
+        '
+        Me.DataGridViewTextBoxColumn67.DataPropertyName = "Zone2_off"
+        Me.DataGridViewTextBoxColumn67.HeaderText = "Zone2_off"
+        Me.DataGridViewTextBoxColumn67.Name = "DataGridViewTextBoxColumn67"
+        '
+        'DataGridViewTextBoxColumn68
+        '
+        Me.DataGridViewTextBoxColumn68.DataPropertyName = "Zone3_on"
+        Me.DataGridViewTextBoxColumn68.HeaderText = "Zone3_on"
+        Me.DataGridViewTextBoxColumn68.Name = "DataGridViewTextBoxColumn68"
+        '
+        'DataGridViewTextBoxColumn69
+        '
+        Me.DataGridViewTextBoxColumn69.DataPropertyName = "Zone3_off"
+        Me.DataGridViewTextBoxColumn69.HeaderText = "Zone3_off"
+        Me.DataGridViewTextBoxColumn69.Name = "DataGridViewTextBoxColumn69"
+        '
+        'DataGridViewTextBoxColumn70
+        '
+        Me.DataGridViewTextBoxColumn70.DataPropertyName = "Zone4_on"
+        Me.DataGridViewTextBoxColumn70.HeaderText = "Zone4_on"
+        Me.DataGridViewTextBoxColumn70.Name = "DataGridViewTextBoxColumn70"
+        '
+        'DataGridViewTextBoxColumn71
+        '
+        Me.DataGridViewTextBoxColumn71.DataPropertyName = "Zone4_off"
+        Me.DataGridViewTextBoxColumn71.HeaderText = "Zone4_off"
+        Me.DataGridViewTextBoxColumn71.Name = "DataGridViewTextBoxColumn71"
+        '
+        'X10_ControlBindingSource
+        '
+        Me.X10_ControlBindingSource.DataMember = "X10_Control"
+        Me.X10_ControlBindingSource.DataSource = Me.WatchdogDataSet
+        '
+        'gbVoiceRecognition
+        '
+        Me.gbVoiceRecognition.Controls.Add(Me.lblLastInteraction)
+        Me.gbVoiceRecognition.Controls.Add(Me.Label2)
+        Me.gbVoiceRecognition.Controls.Add(Me.lblStatus)
+        Me.gbVoiceRecognition.Controls.Add(Me.Label5)
+        Me.gbVoiceRecognition.Controls.Add(Me.lblCommand)
+        Me.gbVoiceRecognition.Controls.Add(Me.Label4)
+        Me.gbVoiceRecognition.Controls.Add(Me.lblDuration)
+        Me.gbVoiceRecognition.Controls.Add(Me.Label3)
+        Me.gbVoiceRecognition.Controls.Add(Me.lblConfidence)
+        Me.gbVoiceRecognition.Controls.Add(Me.Label1)
+        Me.gbVoiceRecognition.Location = New System.Drawing.Point(12, 229)
+        Me.gbVoiceRecognition.Name = "gbVoiceRecognition"
+        Me.gbVoiceRecognition.Size = New System.Drawing.Size(189, 114)
+        Me.gbVoiceRecognition.TabIndex = 15
+        Me.gbVoiceRecognition.TabStop = False
+        Me.gbVoiceRecognition.Text = "Voice Recognition"
+        Me.gbVoiceRecognition.Visible = False
+        '
+        'lblLastInteraction
+        '
+        Me.lblLastInteraction.AutoSize = True
+        Me.lblLastInteraction.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLastInteraction.Location = New System.Drawing.Point(90, 94)
+        Me.lblLastInteraction.Name = "lblLastInteraction"
+        Me.lblLastInteraction.Size = New System.Drawing.Size(0, 9)
+        Me.lblLastInteraction.TabIndex = 26
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(7, 94)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(38, 9)
+        Me.Label2.TabIndex = 25
+        Me.Label2.Text = "Last Talk:"
+        '
+        'lblStatus
+        '
+        Me.lblStatus.AutoSize = True
+        Me.lblStatus.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStatus.Location = New System.Drawing.Point(90, 75)
+        Me.lblStatus.Name = "lblStatus"
+        Me.lblStatus.Size = New System.Drawing.Size(34, 9)
+        Me.lblStatus.TabIndex = 24
+        Me.lblStatus.Text = "Sleeping"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(6, 75)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(28, 9)
+        Me.Label5.TabIndex = 23
+        Me.Label5.Text = "Status:"
+        '
+        'lblCommand
+        '
+        Me.lblCommand.AutoSize = True
+        Me.lblCommand.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCommand.Location = New System.Drawing.Point(90, 26)
+        Me.lblCommand.Name = "lblCommand"
+        Me.lblCommand.Size = New System.Drawing.Size(0, 9)
+        Me.lblCommand.TabIndex = 22
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(7, 25)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(59, 9)
+        Me.Label4.TabIndex = 21
+        Me.Label4.Text = "Last Command:"
+        '
+        'lblDuration
+        '
+        Me.lblDuration.AutoSize = True
+        Me.lblDuration.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDuration.Location = New System.Drawing.Point(90, 58)
+        Me.lblDuration.Name = "lblDuration"
+        Me.lblDuration.Size = New System.Drawing.Size(9, 9)
+        Me.lblDuration.TabIndex = 20
+        Me.lblDuration.Text = "0"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(7, 58)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(36, 9)
+        Me.Label3.TabIndex = 19
+        Me.Label3.Text = "Duration:"
+        '
+        'lblConfidence
+        '
+        Me.lblConfidence.AutoSize = True
+        Me.lblConfidence.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblConfidence.Location = New System.Drawing.Point(90, 41)
+        Me.lblConfidence.Name = "lblConfidence"
+        Me.lblConfidence.Size = New System.Drawing.Size(9, 9)
+        Me.lblConfidence.TabIndex = 18
+        Me.lblConfidence.Text = "0"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(7, 41)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(45, 9)
+        Me.Label1.TabIndex = 17
+        Me.Label1.Text = "Confidence:"
+        '
+        'tCheckPresence
+        '
+        Me.tCheckPresence.Interval = 1000
+        '
+        'Event_Current_StateTableAdapter
+        '
+        Me.Event_Current_StateTableAdapter.ClearBeforeFill = True
+        '
+        'TableAdapterManager
+        '
+        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
+        Me.TableAdapterManager.Event_Current_StateTableAdapter = Me.Event_Current_StateTableAdapter
+        Me.TableAdapterManager.Event_HistoryTableAdapter = Nothing
+        Me.TableAdapterManager.Temp_Current_StateTableAdapter = Nothing
+        Me.TableAdapterManager.UpdateOrder = WindowsApplication1.WatchdogDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
+        Me.TableAdapterManager.X10_ControlTableAdapter = Nothing
+        '
+        'Temp_Current_StateTableAdapter
+        '
+        Me.Temp_Current_StateTableAdapter.ClearBeforeFill = True
+        '
+        'X10_ControlTableAdapter
+        '
+        Me.X10_ControlTableAdapter.ClearBeforeFill = True
+        '
+        'gbMonitor
+        '
+        Me.gbMonitor.Controls.Add(Me.lblCountdown)
+        Me.gbMonitor.Controls.Add(Me.Label6)
+        Me.gbMonitor.Controls.Add(Me.lblMonitor)
+        Me.gbMonitor.Controls.Add(Me.Label7)
+        Me.gbMonitor.Controls.Add(Me.btnStop)
+        Me.gbMonitor.Controls.Add(Me.btnStart)
+        Me.gbMonitor.Controls.Add(Me.cbCOMPort)
+        Me.gbMonitor.Controls.Add(Me.Label10)
+        Me.gbMonitor.Controls.Add(Me.btnDisconnect)
+        Me.gbMonitor.Controls.Add(Me.btnConnect)
+        Me.gbMonitor.Controls.Add(Me.lblConnectionStatus)
+        Me.gbMonitor.Controls.Add(Me.Label8)
+        Me.gbMonitor.Location = New System.Drawing.Point(12, 45)
+        Me.gbMonitor.Name = "gbMonitor"
+        Me.gbMonitor.Size = New System.Drawing.Size(189, 178)
+        Me.gbMonitor.TabIndex = 65
+        Me.gbMonitor.TabStop = False
+        Me.gbMonitor.Text = "Monitor"
+        Me.gbMonitor.Visible = False
+        '
+        'lblCountdown
+        '
+        Me.lblCountdown.AutoSize = True
+        Me.lblCountdown.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCountdown.Location = New System.Drawing.Point(88, 164)
+        Me.lblCountdown.Name = "lblCountdown"
+        Me.lblCountdown.Size = New System.Drawing.Size(9, 9)
+        Me.lblCountdown.TabIndex = 76
+        Me.lblCountdown.Text = "0"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(12, 164)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(45, 9)
+        Me.Label6.TabIndex = 75
+        Me.Label6.Text = "Countdown:"
+        '
+        'lblMonitor
+        '
+        Me.lblMonitor.AutoSize = True
+        Me.lblMonitor.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMonitor.Location = New System.Drawing.Point(88, 145)
+        Me.lblMonitor.Name = "lblMonitor"
+        Me.lblMonitor.Size = New System.Drawing.Size(55, 9)
+        Me.lblMonitor.TabIndex = 74
+        Me.lblMonitor.Text = "Not Monitoring"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(12, 145)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(66, 9)
+        Me.Label7.TabIndex = 73
+        Me.Label7.Text = "Monitoring Status:"
+        '
+        'btnStop
+        '
+        Me.btnStop.Enabled = False
+        Me.btnStop.Location = New System.Drawing.Point(99, 97)
+        Me.btnStop.Name = "btnStop"
+        Me.btnStop.Size = New System.Drawing.Size(74, 34)
+        Me.btnStop.TabIndex = 72
+        Me.btnStop.Text = "Stop Monitoring"
+        Me.btnStop.UseVisualStyleBackColor = True
+        '
+        'btnStart
+        '
+        Me.btnStart.Enabled = False
+        Me.btnStart.Location = New System.Drawing.Point(16, 97)
+        Me.btnStart.Name = "btnStart"
+        Me.btnStart.Size = New System.Drawing.Size(74, 34)
+        Me.btnStart.TabIndex = 71
+        Me.btnStart.Text = "Start Monitoring"
+        Me.btnStart.UseVisualStyleBackColor = True
+        '
+        'cbCOMPort
+        '
+        Me.cbCOMPort.FormattingEnabled = True
+        Me.cbCOMPort.Location = New System.Drawing.Point(79, 13)
+        Me.cbCOMPort.Name = "cbCOMPort"
+        Me.cbCOMPort.Size = New System.Drawing.Size(60, 21)
+        Me.cbCOMPort.TabIndex = 70
+        Me.cbCOMPort.Text = "COM1"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(16, 17)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(56, 13)
+        Me.Label10.TabIndex = 69
+        Me.Label10.Text = "COM Port:"
+        '
+        'btnDisconnect
+        '
+        Me.btnDisconnect.Enabled = False
+        Me.btnDisconnect.Location = New System.Drawing.Point(99, 57)
+        Me.btnDisconnect.Name = "btnDisconnect"
+        Me.btnDisconnect.Size = New System.Drawing.Size(74, 34)
+        Me.btnDisconnect.TabIndex = 68
+        Me.btnDisconnect.Text = "Disconnect"
+        Me.btnDisconnect.UseVisualStyleBackColor = True
+        '
+        'btnConnect
+        '
+        Me.btnConnect.Location = New System.Drawing.Point(16, 57)
+        Me.btnConnect.Name = "btnConnect"
+        Me.btnConnect.Size = New System.Drawing.Size(74, 34)
+        Me.btnConnect.TabIndex = 67
+        Me.btnConnect.Text = "Connect"
+        Me.btnConnect.UseVisualStyleBackColor = True
+        '
+        'lblConnectionStatus
+        '
+        Me.lblConnectionStatus.AutoSize = True
+        Me.lblConnectionStatus.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblConnectionStatus.Location = New System.Drawing.Point(88, 40)
+        Me.lblConnectionStatus.Name = "lblConnectionStatus"
+        Me.lblConnectionStatus.Size = New System.Drawing.Size(55, 9)
+        Me.lblConnectionStatus.TabIndex = 66
+        Me.lblConnectionStatus.Text = "Not Connected"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(16, 40)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(58, 9)
+        Me.Label8.TabIndex = 65
+        Me.Label8.Text = "Connect Status:"
+        '
+        'btnControls
+        '
+        Me.btnControls.Location = New System.Drawing.Point(12, 12)
+        Me.btnControls.Name = "btnControls"
+        Me.btnControls.Size = New System.Drawing.Size(52, 26)
+        Me.btnControls.TabIndex = 66
+        Me.btnControls.Text = "Show"
+        Me.btnControls.UseVisualStyleBackColor = True
+        '
+        'Sarah
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScroll = True
+        Me.BackColor = System.Drawing.Color.White
+        Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.SARAH1
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.ClientSize = New System.Drawing.Size(878, 538)
+        Me.Controls.Add(Me.btnControls)
+        Me.Controls.Add(Me.gbMonitor)
+        Me.Controls.Add(Me.gbVoiceRecognition)
+        Me.Controls.Add(Me.X10_ControlDataGridView)
+        Me.Controls.Add(Me.Temp_Current_StateDataGridView)
+        Me.Controls.Add(Me.Event_Current_StateDataGridView)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
+        Me.Name = "Sarah"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "S.A.R.A.H."
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        CType(Me.Event_Current_StateDataGridView, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Event_Current_StateBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.WatchdogDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Temp_Current_StateDataGridView, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Temp_Current_StateBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.X10_ControlDataGridView, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.X10_ControlBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.gbVoiceRecognition.ResumeLayout(False)
+        Me.gbVoiceRecognition.PerformLayout()
+        Me.gbMonitor.ResumeLayout(False)
+        Me.gbMonitor.PerformLayout()
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents DataGridViewTextBoxColumn39 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn40 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn41 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn42 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn43 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn44 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn45 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents WatchdogDataSet As WindowsApplication1.WatchdogDataSet
+    Friend WithEvents Event_Current_StateBindingSource As System.Windows.Forms.BindingSource
+    Friend WithEvents Event_Current_StateTableAdapter As WindowsApplication1.WatchdogDataSetTableAdapters.Event_Current_StateTableAdapter
+    Friend WithEvents TableAdapterManager As WindowsApplication1.WatchdogDataSetTableAdapters.TableAdapterManager
+    Friend WithEvents Event_Current_StateDataGridView As System.Windows.Forms.DataGridView
+    Friend WithEvents Temp_Current_StateBindingSource As System.Windows.Forms.BindingSource
+    Friend WithEvents Temp_Current_StateTableAdapter As WindowsApplication1.WatchdogDataSetTableAdapters.Temp_Current_StateTableAdapter
+    Friend WithEvents Temp_Current_StateDataGridView As System.Windows.Forms.DataGridView
+    Friend WithEvents DataGridViewTextBoxColumn2 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn48 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn49 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn50 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn51 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn52 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn53 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn54 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn3 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn4 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn5 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn6 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn7 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn8 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn9 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn10 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn11 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn12 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn13 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn14 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn15 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn16 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn17 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn18 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn19 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn20 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn21 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn22 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn23 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn24 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn25 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn26 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn27 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn28 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn29 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn30 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn31 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn32 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn33 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn34 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn35 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn36 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn37 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn38 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn46 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn47 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Last_Update As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents X10_ControlBindingSource As System.Windows.Forms.BindingSource
+    Friend WithEvents X10_ControlTableAdapter As WindowsApplication1.WatchdogDataSetTableAdapters.X10_ControlTableAdapter
+    Friend WithEvents X10_ControlDataGridView As System.Windows.Forms.DataGridView
+    Friend WithEvents DataGridViewTextBoxColumn1 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn55 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn56 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn57 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn58 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn59 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn60 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn61 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn62 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn63 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn64 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn65 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn66 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn67 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn68 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn69 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn70 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn71 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents gbVoiceRecognition As System.Windows.Forms.GroupBox
+    Friend WithEvents lblLastInteraction As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents lblStatus As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents lblCommand As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents lblDuration As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents lblConfidence As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents tCheckPresence As System.Windows.Forms.Timer
+    Friend WithEvents gbMonitor As System.Windows.Forms.GroupBox
+    Friend WithEvents lblCountdown As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents lblMonitor As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents btnStop As System.Windows.Forms.Button
+    Friend WithEvents btnStart As System.Windows.Forms.Button
+    Friend WithEvents cbCOMPort As System.Windows.Forms.ComboBox
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents btnDisconnect As System.Windows.Forms.Button
+    Friend WithEvents btnConnect As System.Windows.Forms.Button
+    Friend WithEvents lblConnectionStatus As System.Windows.Forms.Label
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents btnControls As System.Windows.Forms.Button
+
+End Class
